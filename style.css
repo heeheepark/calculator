@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  background-color: #ddd;
+  border: 1px solid #333;
+  width: 500px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  grid-gap: 10px 10px;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+#container input {
+  border-radius: 5px;
+}
+
+#container input:not(:first-of-type) {
+  text-align: center;
+  border: 2px solid #000;
+  font-size: 25px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+#container input:not(:first-of-type):hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 2px 2px 3px 0px #000;
+}
+
+#inputBox {
+  grid-column: 1/5;
+  background-color: #fff;
+  font-size: 25px;
+  text-align: right;
+  padding: 20px;
+}
+.box2 {
+  background-color: red;
+  grid-column: 1/4;
+}
+.box3 {
+  background-color: orange;
+}
+.box4 {
+  background-color: #fff;
+}
+.box5 {
+  background-color: #fff;
+}
+.box6 {
+  background-color: #fff;
+}
+.box7 {
+  background-color: orange;
+}
+.box8 {
+  background-color: #fff;
+}
+.box9 {
+  background-color: #fff;
+}
+.box10 {
+  background-color: #fff;
+}
+.box11 {
+  background-color: orange;
+}
+.box12 {
+  background-color: #fff;
+}
+.box13 {
+  background-color: #fff;
+}
+.box14 {
+  background-color: #fff;
+}
+.box15 {
+  background-color: orange;
+}
+.box16 {
+  background-color: green;
+}
+.box17 {
+  background-color: #fff;
+}
+.box18 {
+  background-color: orange;
+  grid-column: 3/5;
+}
